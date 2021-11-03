@@ -1,0 +1,7 @@
+rules:
+  - id: print
+    languages:
+      - python
+    message: Print should not use. Use log to debug.
+    pattern: print(...)
+    severity: WARNING
